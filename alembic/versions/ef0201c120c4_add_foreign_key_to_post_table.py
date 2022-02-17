@@ -1,18 +1,17 @@
-"""add foreign-key to posts table
+"""add foreign-key to post table
 
-Revision ID: df7bab865c28
-Revises: 8ea5934f9a51
-Create Date: 2022-02-16 16:25:01.973341
+Revision ID: ef0201c120c4
+Revises: 0194bfb2bb3e
+Create Date: 2022-02-17 12:43:59.621826
 
 """
-from tkinter import CASCADE
 from alembic import op
 import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = 'df7bab865c28'
-down_revision = '8ea5934f9a51'
+revision = 'ef0201c120c4'
+down_revision = '0194bfb2bb3e'
 branch_labels = None
 depends_on = None
 
