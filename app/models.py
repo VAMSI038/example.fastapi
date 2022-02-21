@@ -1,4 +1,4 @@
-from tkinter import CASCADE
+
 from sqlalchemy.sql.expression import text
 from .database import Base
 from sqlalchemy import  Column, ForeignKey,Integer,String,Boolean
@@ -27,5 +27,5 @@ class User(Base):
 
 class Vote(Base):
     __tablename__="votes"
-    user_id=Column(Integer,ForeignKey("users.id",ondelete=CASCADE),primary_key=True)
-    post_id=Column(Integer,ForeignKey("post.id",ondelete=CASCADE),primary_key=True)
+    user_id=Column(Integer,ForeignKey("users.id",ondelete="CASCADE"),primary_key=True)
+    post_id=Column(Integer,ForeignKey("post.id",ondelete="CASCADE"),primary_key=True)
