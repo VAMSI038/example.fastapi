@@ -1,4 +1,4 @@
-from app import oauth2
+#from app import oauth2
 from ..import models,schemas,oauth2
 from typing import List,Optional
 from fastapi import FastAPI,Response,status,HTTPException,Depends,APIRouter
