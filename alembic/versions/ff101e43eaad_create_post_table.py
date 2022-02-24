@@ -5,7 +5,7 @@ Revises:
 Create Date: 2022-02-17 12:18:53.031909
 
 """
-from tkinter.tix import Tree
+#from tkinter.tix import Tree
 from alembic import op
 import sqlalchemy as sa
 
